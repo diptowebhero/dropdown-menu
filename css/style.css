@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;800&family=Raleway:wght@200;300;400;500;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  background: rgba(10, 21, 122, 1);
+}
+.container {
+  max-width: 1150px;
+  padding: 0px 40px;
+  margin: 0px auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/*=====Common Css end=====*/
+.header {
+  background: rgba(251, 251, 251, 1);
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+ul li {
+  display: inline;
+  padding: 10px 20px;
+}
+ul li a {
+  color: #444;
+  font-weight: 500;
+  transition: 0.3s;
+  font-size: 17px;
+}
+nav ul li:hover a {
+  color: rgba(10, 21, 122, 1);
+}
+
+nav ul li:hover ul a {
+  color: black;
+}
+.btn-main {
+  border: none;
+  padding: 16px 24px 16px 24px;
+  border-radius: 8px;
+  background: rgba(10, 21, 122, 1);
+  color: #fff;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.btn-white {
+  background: transparent;
+  color: rgba(10, 21, 122, 1);
+  border: 1px solid rgba(10, 21, 122, 1);
+}
+.btn-primary:hover {
+  background: transparent;
+  color: rgba(10, 21, 122, 1);
+  border: 1px solid rgba(10, 21, 122, 1);
+}
+/* dropdown */
+.sub-menu-1,
+.sub-menu-2,
+.sub-menu-3 {
+  display: none;
+  transition: 0.3s;
+}
+.dropdown-1:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 60px;
+  background: #fff;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.dropdown-1:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+.dropdown-1:hover .sub-menu-1 li {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid;
+}
+.dropdown-1:hover .sub-menu-1 li:last-child {
+  border: none;
+}
+nav ul ul li a:hover {
+  color: red;
+}
+.fa-angle-right {
+  float: right;
+  margin-top: 6px;
+}
+.dropdown-2:hover .sub-menu-2 {
+  display: block;
+  position: absolute;
+  margin-left: 100px;
+  background: #fff;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.dropdown-3:hover .sub-menu-3 {
+  display: block;
+  position: absolute;
+  margin-left: 100px;
+  background: #fff;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
