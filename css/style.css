@@ -62,11 +62,6 @@ nav ul li:hover ul a {
   color: rgba(10, 21, 122, 1);
   border: 1px solid rgba(10, 21, 122, 1);
 }
-.btn-primary:hover {
-  background: transparent;
-  color: rgba(10, 21, 122, 1);
-  border: 1px solid rgba(10, 21, 122, 1);
-}
 /* dropdown */
 .sub-menu-1,
 .sub-menu-2,
